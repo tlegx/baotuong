@@ -1,1 +1,26 @@
+@font-face {
+    font-family: utm-edwardian;
+    src: url(UTM-EdwardianKT.ttf);
+}
+.header {
+    font-family: utm-edwardian;
+    text-align: center;
+    font-size: 40px;
+    border: solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 1px #aaa9ab;
+}
+.navlinks {
+    display: flex;
+} 
+.element {
+    border: solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px;
+}
+.subheader {
+    border-bottom: 2px solid;
+    max-height: max-content;
+}
 
