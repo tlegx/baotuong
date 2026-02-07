@@ -2,25 +2,48 @@
     font-family: utm-edwardian;
     src: url(UTM-EdwardianKT.ttf);
 }
+body {
+    margin: 0;
+}
 .header {
+    background-color: #cdced4;
     font-family: utm-edwardian;
     text-align: center;
     font-size: 40px;
-    border: solid;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px 1px #aaa9ab;
+    border: solid transparent;
+    border-bottom: 2px solid black;
+}
+.linkcontainer {
+    padding: 30px;
+    background-color: #929c97;
 }
 .navlinks {
+    font-family: verdana;
+    font-size: 15px;
+    margin: 0 auto;
+    width: 50%;
     display: flex;
-} 
+    justify-content: space-around;
+}
+a.navlink{
+    text-decoration: none;
+}
+a.navlink:link, a.navlink:visited, a.navlink:active{
+    color: black;
+}
 .element {
     border: solid;
     border-radius: 20px;
-    margin-top: 20px;
+    margin: 20px;
     padding: 15px;
 }
 .subheader {
     border-bottom: 2px solid;
     max-height: max-content;
 }
-
+.imagegrid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /*margin: 15px;*/
+}
