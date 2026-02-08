@@ -4,21 +4,29 @@
 }
 body {
     margin: 0;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/139/117/non_2x/beautiful-green-color-gradient-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+p {
+    font-size: 20px;
 }
 .header {
-    background-color: #cdced4;
+    background-color: #3e6163;
     font-family: utm-edwardian;
     text-align: center;
     font-size: 40px;
     border: solid transparent;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #416d6d;
+    color: white;
 }
 .linkcontainer {
     padding: 30px;
-    background-color: #929c97;
+    background-color: #4e8a8a;
 }
 .navlinks {
-    font-family: verdana;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     margin: 0 auto;
     width: 50%;
@@ -29,13 +37,16 @@ a.navlink{
     text-decoration: none;
 }
 a.navlink:link, a.navlink:visited, a.navlink:active{
-    color: black;
+    color: white;
 }
 .element {
+    font-family: "Montserrat", sans-serif;
     border: solid;
     border-radius: 20px;
     margin: 20px;
     padding: 15px;
+    background-color: rgb(255, 255, 255, 75%);
+    color: #1d3736
 }
 .subheader {
     border-bottom: 2px solid;
